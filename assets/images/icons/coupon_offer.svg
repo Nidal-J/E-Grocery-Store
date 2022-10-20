@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 18">
+  <g id="coupon_offer" transform="translate(0)">
+    <path id="Vector" d="M22,18H2a2,2,0,0,1-2-2V12a.5.5,0,0,1,.5-.5,2.5,2.5,0,0,0,0-5A.5.5,0,0,1,0,6V2A2,2,0,0,1,2,0H22a2,2,0,0,1,2,2V6a.5.5,0,0,1-.5.5,2.5,2.5,0,1,0,0,5,.5.5,0,0,1,.5.5v4A2,2,0,0,1,22,18ZM2,1A1,1,0,0,0,1,2V5.536a3.5,3.5,0,0,1,0,6.928V16a1,1,0,0,0,1,1H22a1,1,0,0,0,1-1V12.464a3.5,3.5,0,0,1,0-6.928V2a1,1,0,0,0-1-1Z" fill="#fff"/>
+    <path id="Vector-2" data-name="Vector" d="M0,.5V1.625a.5.5,0,0,0,1,0V.5a.5.5,0,1,0-1,0Z" transform="translate(6 1.875)" fill="#fff"/>
+    <path id="Vector-3" data-name="Vector" d="M0,.5v1a.5.5,0,1,0,1,0V.5a.5.5,0,1,0-1,0Z" transform="translate(6 6)" fill="#fff"/>
+    <path id="Vector-4" data-name="Vector" d="M0,.5v1a.5.5,0,0,0,1,0V.5a.5.5,0,0,0-1,0Z" transform="translate(6 10)" fill="#fff"/>
+    <path id="Vector-5" data-name="Vector" d="M0,.5v1a.5.5,0,1,0,1,0V.5a.5.5,0,1,0-1,0Z" transform="translate(6 14)" fill="#fff"/>
+    <path id="Vector-6" data-name="Vector" d="M6.084.223l-6,9a.5.5,0,1,0,.832.555l6-9A.5.5,0,1,0,6.084.223Z" transform="translate(10 4)" fill="#fff"/>
+    <path id="Vector-7" data-name="Vector" d="M2,5A2.3,2.3,0,0,1,0,2.5,2.3,2.3,0,0,1,2,0,2.3,2.3,0,0,1,4,2.5,2.3,2.3,0,0,1,2,5ZM2,1c-.542,0-1,.687-1,1.5S1.458,4,2,4s1-.687,1-1.5S2.542,1,2,1Z" transform="translate(9 4)" fill="#fff"/>
+    <path id="Vector-8" data-name="Vector" d="M2,5A2.3,2.3,0,0,1,0,2.5,2.3,2.3,0,0,1,2,0,2.3,2.3,0,0,1,4,2.5,2.3,2.3,0,0,1,2,5ZM2,1c-.542,0-1,.687-1,1.5S1.458,4,2,4s1-.687,1-1.5S2.542,1,2,1Z" transform="translate(14 9)" fill="#fff"/>
+  </g>
+</svg>

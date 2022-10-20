@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.4" height="24.81" viewBox="0 0 24.4 24.81">
+  <g id="cart" transform="translate(0.2 0.61)">
+    <path id="Vector" d="M.555,8a.569.569,0,0,0-.392.163h0A.569.569,0,0,0,0,8.555H0a4.068,4.068,0,0,0,.108.932l2.974,12.6a.387.387,0,0,0,.168.233h0a.554.554,0,0,0,.287.082H18.862a.554.554,0,0,0,.287-.082h0a.389.389,0,0,0,.168-.233l3-12.717a3.025,3.025,0,0,0,.081-.693V8.555a.569.569,0,0,0-.163-.392h0A.569.569,0,0,0,21.845,8Z" transform="translate(0.8 0.8)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-dasharray="0 0"/>
+    <path id="Vector-2" data-name="Vector" d="M4.8,8l5.8-8" transform="translate(0.8 0.8)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2" stroke-dasharray="0 0"/>
+    <path id="Vector-3" data-name="Vector" d="M10.8,0l6.8,8" transform="translate(0.8 0.8)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2" stroke-dasharray="0 0"/>
+    <path id="Vector-4" data-name="Vector" d="M11.2,10.4v8" transform="translate(0.8 1.8)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2" stroke-dasharray="0 0"/>
+    <path id="Vector-5" data-name="Vector" d="M7.2,14.4h8" transform="translate(0.8 1.8)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2" stroke-dasharray="0 0"/>
+  </g>
+</svg>
