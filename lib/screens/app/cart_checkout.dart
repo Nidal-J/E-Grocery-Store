@@ -64,8 +64,7 @@ class CartCheckout extends StatelessWidget {
                     ? snapshot.data!.isEmpty
                         ? TextButton.icon(
                             onPressed: () async {
-                              bool isDefault =
-                                  await Get.toNamed(AppRoutes.addNewAddress);
+                              await Get.toNamed(AppRoutes.addNewAddress);
                             },
                             icon: const Icon(Icons.add_road_rounded),
                             label: Text(
@@ -87,8 +86,8 @@ class CartCheckout extends StatelessWidget {
                                   },
                                   child: Obx(
                                     () => Container(
+                                      height: 120.h,
                                       width: Get.width,
-                                      height: 100.h,
                                       padding: EdgeInsets.all(15.r),
                                       decoration: BoxDecoration(
                                         color: storeController
@@ -127,34 +126,37 @@ class CartCheckout extends StatelessWidget {
                                           SizedBox(
                                             width: 22.w,
                                           ),
-                                          Column(
-                                            mainAxisAlignment:
-                                                MainAxisAlignment.spaceBetween,
-                                            crossAxisAlignment:
-                                                CrossAxisAlignment.start,
-                                            children: [
-                                              Text(
-                                                snapshot.data![index].name,
-                                                style: const TextStyle(
-                                                    fontWeight:
-                                                        FontWeight.bold),
-                                              ),
-                                              Text(
-                                                '+970${snapshot.data![index].contactNumber}',
-                                                style: const TextStyle(
-                                                  fontWeight: FontWeight.w500,
-                                                  color: AppColors.grey,
+                                          Expanded(
+                                            child: Column(
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment
+                                                      .spaceBetween,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.start,
+                                              children: [
+                                                Text(
+                                                  snapshot.data![index].name,
+                                                  style: const TextStyle(
+                                                      fontWeight:
+                                                          FontWeight.bold),
                                                 ),
-                                              ),
-                                              Text(
-                                                snapshot.data![index].info
-                                                    .replaceAll('||', ', '),
-                                                style: const TextStyle(
-                                                  fontWeight: FontWeight.w500,
-                                                  color: AppColors.grey,
+                                                Text(
+                                                  '0${snapshot.data![index].contactNumber}',
+                                                  style: const TextStyle(
+                                                    fontWeight: FontWeight.w500,
+                                                    color: AppColors.grey,
+                                                  ),
                                                 ),
-                                              ),
-                                            ],
+                                                Text(
+                                                  snapshot.data![index].info
+                                                      .replaceAll('||', ', '),
+                                                  style: const TextStyle(
+                                                    fontWeight: FontWeight.w500,
+                                                    color: AppColors.grey,
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
                                           ),
                                         ],
                                       ),

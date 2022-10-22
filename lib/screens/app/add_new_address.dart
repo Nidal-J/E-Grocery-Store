@@ -169,6 +169,9 @@ class _AddNewAddressState extends State<AddNewAddress> {
                       controller: flatController,
                       // initialValue: oldAddress?.info.split('||')[2],
                     ),
+                    SizedBox(
+                      height: 26.h,
+                    ),
                     RegisterField(
                       label: 'phone_number'.tr,
                       controller: phoneController,

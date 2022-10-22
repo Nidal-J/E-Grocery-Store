@@ -32,11 +32,11 @@ class DbController {
             'image_url TEXT NOT NULL,'
             'quantity INTEGER NOT NULL,'
             'price REAL NOT NULL,'
-            'total_price REAL NOT NULL,'
+            // 'total_price REAL NOT NULL,'
             'product_id INTEGER NOT NULL'
             ')');
       },
-      onUpgrade: (Database db, int oldVersion, int newVersion) {
+      onUpgrade: (Database db, int oldVersion, int newVersion) async {
         print('db upgraded');
       },
       onDowngrade: (Database db, int oldVersion, int newVersion) {
