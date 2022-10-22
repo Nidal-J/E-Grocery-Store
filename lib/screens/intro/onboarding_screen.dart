@@ -45,6 +45,7 @@ class OnboardingScreen extends StatelessWidget {
             SizedBox(height: 30.h),
             Expanded(
               child: PageView.builder(
+                physics: const BouncingScrollPhysics(),
                 controller: pageController,
                 itemCount: 3,
                 itemBuilder: (context, index) => Column(

@@ -129,7 +129,7 @@ Map<String, String> arLocale = {
   'browse_home': 'انتقل للصفحة الرئيسية',
   'success_order': 'تم طلب المنتج بنجاح ',
   'success_order_info':
-      'شكراً لط على الطلب. تم إضافة طلبك بنجاح. تابع الطلب من فضلك',
+      'شكراً لك على الطلب. تم إضافة طلبك بنجاح. تابع الطلب من فضلك',
   'track_order': 'تتبع الطلب',
   'continue': 'استمر',
   // orders screen

@@ -36,6 +36,8 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           theme: ThemeData(
             fontFamily: 'Montserrat',
+            // primaryColor: AppColors.green,
+            // colorScheme: Colors,
             expansionTileTheme: const ExpansionTileThemeData(
               textColor: AppColors.green,
               iconColor: AppColors.green,
@@ -93,14 +95,14 @@ class MyApp extends StatelessWidget {
               ),
             ),
             // bottomNavigationBarTheme: BottomNavigationBarThemeData(
-            //   type: BottomNavigationBarType.fixed,
+            //   // type: BottomNavigationBarType.fixed,
             //   elevation: 0,
-            //   backgroundColor: AppColors.white,
-            //   selectedLabelStyle: TextStyle(fontSize: 14.sp),
-            //   unselectedLabelStyle: TextStyle(fontSize: 14.sp),
-            //   selectedItemColor: AppColors.green,
-            //   unselectedItemColor: AppColors.black.withOpacity(0.4),
-            //   showUnselectedLabels: true,
+            //   backgroundColor: Colors.transparent,
+            //   // selectedLabelStyle: TextStyle(fontSize: 14.sp),
+            //   // unselectedLabelStyle: TextStyle(fontSize: 14.sp),
+            //   // selectedItemColor: AppColors.green,
+            //   // unselectedItemColor: AppColors.black.withOpacity(0.4),
+            //   // showUnselectedLabels: true,
             // ),
             textTheme: TextTheme(
               // bodyText1: TextStyle(

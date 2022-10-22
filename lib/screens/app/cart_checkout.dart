@@ -8,6 +8,7 @@ import 'package:e_grocery/routes/app_routes.dart';
 import 'package:e_grocery/widgets/get_back_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:shimmer/shimmer.dart';
 
@@ -274,13 +275,14 @@ class CartCheckout extends StatelessWidget {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Image.asset(
-                                    '${AppImages.paymentCardPath}/master_card.png'),
+                                SvgPicture.asset(index == 0
+                                    ? '${AppImages.paymentCardPath}/master_card.svg'
+                                    : '${AppImages.paymentCardPath}/visa.svg'),
                                 SizedBox(
                                   height: 5.h,
                                 ),
                                 Text(
-                                  'master_card',
+                                  index == 0 ? 'Master Card' : 'Visa Card',
                                   style: TextStyle(
                                     fontWeight: FontWeight.w500,
                                     fontSize: 12.sp,

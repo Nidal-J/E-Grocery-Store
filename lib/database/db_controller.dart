@@ -20,7 +20,7 @@ class DbController {
     String path = join(directory.path, 'egrocery_db.sql');
     _database = await openDatabase(
       path,
-      version: 1,
+      version: 2,
       onOpen: (Database database) {
         print('db opened');
       },
@@ -36,8 +36,12 @@ class DbController {
             'product_id INTEGER NOT NULL'
             ')');
       },
-      onUpgrade: (Database db, int oldVersion, int newVersion) {},
-      onDowngrade: (Database db, int oldVersion, int newVersion) {},
+      onUpgrade: (Database db, int oldVersion, int newVersion) {
+        print('db upgraded');
+      },
+      onDowngrade: (Database db, int oldVersion, int newVersion) {
+        print('db downgraded');
+      },
     );
   }
 }

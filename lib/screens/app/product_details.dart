@@ -369,7 +369,7 @@ class _ProductDetailsState extends State<ProductDetails> {
                                             EdgeInsets.only(top: 24.h),
                                         radius: 10.r,
                                         titleStyle: TextStyle(
-                                          fontSize: 16.sp,
+                                          fontSize: 30.sp,
                                           fontWeight: FontWeight.bold,
                                         ),
                                         title: 'rate_product'.tr,

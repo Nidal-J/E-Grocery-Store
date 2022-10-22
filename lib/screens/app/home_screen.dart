@@ -1,4 +1,5 @@
 import 'package:e_grocery/constants/constants.dart';
+import 'package:e_grocery/database/db_controller.dart';
 import 'package:e_grocery/get/controllers/home_controller.dart';
 import 'package:e_grocery/routes/app_routes.dart';
 import 'package:e_grocery/widgets/app_title.dart';
@@ -107,7 +108,7 @@ class HomeScreen extends StatelessWidget {
                     clipBehavior: Clip.none,
                     children: [
                       IconButton(
-                        onPressed: () {},
+                        onPressed: () async {},
                         icon: const Icon(
                           Icons.notifications,
                           size: 28,
@@ -124,7 +125,7 @@ class HomeScreen extends StatelessWidget {
                             color: AppColors.danger,
                           ),
                           child: Text(
-                            '999',
+                            '9',
                             style: TextStyle(
                               fontSize: 12.sp,
                               color: AppColors.white,
@@ -251,6 +252,8 @@ class HomeScreen extends StatelessWidget {
           clipBehavior: Clip.antiAlias,
           shape: const CircularNotchedRectangle(),
           notchMargin: 8,
+          // color: Colors.transparent,
+          // elevation: 0,
           child: Container(
             height: 70,
             decoration: const BoxDecoration(
